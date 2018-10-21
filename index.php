@@ -8,7 +8,7 @@ $products = [
         'price' => 20
     ],
     [
-        'name' => 'chips',
+        'name' => 'cracker',
         'price' => 30
     ]
 ];
