@@ -14,7 +14,9 @@ $products = [
 ];
 
 $sumPrice = collect($products)->sum('price');
+$avgPrice = collect($products)->avg('price');
 
 dump([
-    'sum' => $sumPrice
+    'sum' => $sumPrice,
+    'avg' => $avgPrice
 ]);
